@@ -7,3 +7,6 @@ Upon running the program, it will prompt you for a name and number of samples to
 
 # knn.py
 Upon running this, it will create a knn model with the provided data, segmenting out 30% for test cases. It will then create an adjacency matrix with the euclidean distance between all of the data points and then print it, with the red concentration of the value correlating with distance. It will then produce a 2D and 3D chart of the adjacency matrix using a spring algorithm (edges become "springs" with a spring constant inversely proportional to the distance), creating a mesh network of data points (nodes/voices) allowing humans to visualize the similarities between data points. 
+
+# data
+`theclass.json` and `highlow.json` are the data sets that I collected for my presentation. The former being one sample of most people in the class, the latter being 9 samples of me singing with a high voice, and 9 samples of me singing with a low voice (you probably don't want to reverse transform and listen to me 😩)
